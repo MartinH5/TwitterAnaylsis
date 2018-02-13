@@ -4,7 +4,7 @@
 
 ### 0. Prerequisite
 
-You need mongodb runniong on your local machine.
+You need mongodb running on your local machine.
 
 ### 1. Download Zip-File:
 
