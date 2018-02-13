@@ -20,22 +20,22 @@ public class Control {
         String input = args[0];
         if(input != null) {
             switch(input) {
-                case "TotalAmount":
+                case "UserCount":
                     System.out.println("\n" + "The total amount of users, is: " + tweets.userCount(collection));
                     break;
-                case "Top10Linkers":
+                case "TopLinkers":
                     System.out.println("\n" + "Top 10 'linkers': " + tweets.topLinker(collection));
                     break;
-                case "Top5Mentioned":
+                case "TopMentioned":
                     System.out.println("\n" + "Top 5 mentioned: " + tweets.mostMentioned(collection));
                     break;
-                case "Top10Active":
+                case "TopActive":
                     System.out.println("\n" + "Top 10 most active: " + tweets.mostActiveUsers(collection));
                     break;
-                case "Top5Negative":
+                case "TopNegative":
                     System.out.println("\n" + "Top 5 most grumpy: " + tweets.mostGrumpy(collection));
                     break;
-                case "Top5Positive":
+                case "TopPositive":
                     System.out.println("\n" + "Top 5 most happy: " + tweets.mostHappy(collection));
                     break;
                 default:
