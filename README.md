@@ -5,6 +5,7 @@
 ### 0. Prerequisite
 
 You need mongodb running on your local machine.
+Maven has to be installed on your machine.
 
 ### 1. Download Zip-File:
 
