@@ -44,7 +44,7 @@ Navigate to the project (cd /TwitterAnalysis/).
 To run the project from the command line use:
 
 ```
-mvn exec:java -Dexec.args="{Insert your Command Here}"
+mvn exec:java -Dexec.mainClass=com.mycompany.twitteranalysis.Control -Dexec.args="UserCount"
 ```
 You can use the following commands as argument:
 
